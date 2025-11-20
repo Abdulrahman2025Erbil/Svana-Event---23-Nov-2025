@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>حوار الشباب والجهات المعنية - Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <h1 class="main-title" id="mainTitle">حوار الشباب والجهات المعنية: نحو شراكة فاعلة لمستقبل أفضل</h1>
+                    <p class="subtitle">منظمة السلام والحرية | 23 نوفمبر 2025</p>
+                </div>
+                <button class="lang-toggle" id="langToggle">
+                    <span id="langText">KU</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            
+            <!-- Section 1: Overview -->
+            <section class="section" id="section-overview">
+                <h2 class="section-title" data-ar="القسم الأول: نظرة عامة على النشاط" data-ku="بەشی یەکەم: تێڕوانینێکی گشتی بۆ چالاکییەکە">القسم الأول: نظرة عامة على النشاط</h2>
+                
+                <!-- Statistics Grid -->
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <h3 class="stat-number">40</h3>
+                        <p class="stat-label" data-ar="إجمالي المشاركين" data-ku="کۆی بەشداربووان">إجمالي المشاركين</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3 class="stat-number">9</h3>
+                        <p class="stat-label" data-ar="المحافظات" data-ku="پارێزگاکان">المحافظات</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3 class="stat-number">5</h3>
+                        <p class="stat-label" data-ar="مؤسسات حكومية" data-ku="دامەزراوەی حکومی">مؤسسات حكومية</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3 class="stat-number">15</h3>
+                        <p class="stat-label" data-ar="مجتمع مدني" data-ku="کۆمەڵگای مەدەنی">مجتمع مدني</p>
+                    </div>
+                </div>
+
+                <!-- Category Stats -->
+                <div class="category-stats">
+                    <h3 class="subsection-title" data-ar="الإحصائيات الرئيسية" data-ku="ئامارە سەرەکییەکان">الإحصائيات الرئيسية</h3>
+                    <div class="stats-list">
+                        <div class="stat-item">
+                            <span class="stat-label" data-ar="الأكاديميون" data-ku="ئەکادیمیەکان">الأكاديميون</span>
+                            <span class="stat-value">8</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label" data-ar="الإعلاميون" data-ku="میدیاکاران">الإعلاميون</span>
+                            <span class="stat-value">4</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label" data-ar="النقابات" data-ku="سەندیکاکان">النقابات</span>
+                            <span class="stat-value">1</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label" data-ar="المنظمات الدولية" data-ku="رێکخراوە نێودەوڵەتیەکان">المنظمات الدولية</span>
+                            <span class="stat-value">2</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label" data-ar="طلاب جامعيون" data-ku="قوتابیانی زانکۆ">طلاب جامعيون</span>
+                            <span class="stat-value">5</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Geographic Distribution -->
+                <div class="geographic-section">
+                    <h3 class="subsection-title" data-ar="التوزيع الجغرافي" data-ku="دابەشبوونی جوگرافی">التوزيع الجغرافي</h3>
+                    <div class="geo-grid">
+                        <div class="geo-item">
+                            <span class="geo-name" data-ar="أربيل" data-ku="هەولێر">أربيل</span>
+                            <div class="geo-bar">
+                                <div class="geo-fill" style="width: 30%"></div>
+                            </div>
+                            <span class="geo-value">12</span>
+                        </div>
+                        <div class="geo-item">
+                            <span class="geo-name" data-ar="بغداد" data-ku="بەغدا">بغداد</span>
+                            <div class="geo-bar">
+                                <div class="geo-fill" style="width: 22.5%"></div>
+                            </div>
+                            <span class="geo-value">9</span>
+                        </div>
+                        <div class="geo-item">
+                            <span class="geo-name" data-ar="نينوى" data-ku="نەینەوا">نينوى</span>
+                            <div class="geo-bar">
+                                <div class="geo-fill" style="width: 12.5%"></div>
+                            </div>
+                            <span class="geo-value">5</span>
+                        </div>
+                        <div class="geo-item">
+                            <span class="geo-name" data-ar="ديالى" data-ku="دیالە">ديالى</span>
+                            <div class="geo-bar">
+                                <div class="geo-fill" style="width: 12.5%"></div>
+                            </div>
+                            <span class="geo-value">5</span>
+                        </div>
+                        <div class="geo-item">
+                            <span class="geo-name" data-ar="كركوك" data-ku="کەرکوک">كركوك</span>
+                            <div class="geo-bar">
+                                <div class="geo-fill" style="width: 10%"></div>
+                            </div>
+                            <span class="geo-value">4</span>
+                        </div>
+                        <div class="geo-item">
+                            <span class="geo-name" data-ar="السليمانية" data-ku="سلێمانی">السليمانية</span>
+                            <div class="geo-bar">
+                                <div class="geo-fill" style="width: 5%"></div>
+                            </div>
+                            <span class="geo-value">2</span>
+                        </div>
+                        <div class="geo-item">
+                            <span class="geo-name" data-ar="دهوك" data-ku="دهۆک">دهوك</span>
+                            <div class="geo-bar">
+                                <div class="geo-fill" style="width: 2.5%"></div>
+                            </div>
+                            <span class="geo-value">1</span>
+                        </div>
+                        <div class="geo-item">
+                            <span class="geo-name" data-ar="الأنبار" data-ku="ئەنبار">الأنبار</span>
+                            <div class="geo-bar">
+                                <div class="geo-fill" style="width: 2.5%"></div>
+                            </div>
+                            <span class="geo-value">1</span>
+                        </div>
+                        <div class="geo-item">
+                            <span class="geo-name" data-ar="بابل" data-ku="بابل">بابل</span>
+                            <div class="geo-bar">
+                                <div class="geo-fill" style="width: 2.5%"></div>
+                            </div>
+                            <span class="geo-value">1</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Participants Table -->
+                <div class="participants-section">
+                    <h3 class="subsection-title" data-ar="قائمة المشاركين الكاملة" data-ku="لیستی تەواوی بەشداربووان">قائمة المشاركين الكاملة</h3>
+                    <div class="search-box">
+                        <input type="text" id="searchInput" placeholder="البحث عن مشارك..." data-ar-placeholder="البحث عن مشارك..." data-ku-placeholder="گەڕان بۆ بەشداربوو...">
+                    </div>
+                    <div class="table-container">
+                        <table class="participants-table" id="participantsTable">
+                            <thead>
+                                <tr>
+                                    <th data-ar="الاسم" data-ku="ناو">الاسم</th>
+                                    <th data-ar="المحافظة" data-ku="پارێزگا">المحافظة</th>
+                                    <th data-ar="الوظيفة" data-ku="پیشە">الوظيفة</th>
+                                    <th data-ar="الهاتف" data-ku="ژمارەی مۆبایل">الهاتف</th>
+                                </tr>
+                            </thead>
+                            <tbody id="participantsBody">
+                                <!-- Will be populated by JavaScript -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section 2: General Information -->
+            <section class="section" id="section-info">
+                <h2 class="section-title" data-ar="القسم الثاني: معلومات عامة عن النشاط" data-ku="بەشی دووەم: زانیاری گشتی دەربارەی چالاکی">القسم الثاني: معلومات عامة عن النشاط</h2>
+                
+                <div class="info-cards">
+                    <div class="info-card">
+                        <h4 class="info-label" data-ar="اسم النشاط" data-ku="ناوی چالاکی">اسم النشاط</h4>
+                        <p class="info-value" data-ar="حوار الطاولة المستديرة - الشباب والجهات المعنية" data-ku="گفتوگۆی مێزی خولاوە - لاوان و لایەنە پەیوەندیدارەکان">حوار الطاولة المستديرة - الشباب والجهات المعنية</p>
+                    </div>
+                    <div class="info-card">
+                        <h4 class="info-label" data-ar="التاريخ" data-ku="بەروار">التاريخ</h4>
+                        <p class="info-value" data-ar="الأحد، 23 نوفمبر 2025" data-ku="یەکشەممە، 23ی تشرینی دووەمی 2025">الأحد، 23 نوفمبر 2025</p>
+                    </div>
+                    <div class="info-card">
+                        <h4 class="info-label" data-ar="عدد المشاركين" data-ku="ژمارەی بەشداربووان">عدد المشاركين</h4>
+                        <p class="info-value" data-ar="40 مشارك من 9 محافظات" data-ku="40 بەشداربوو لە 9 پارێزگا">40 مشارك من 9 محافظات</p>
+                    </div>
+                    <div class="info-card">
+                        <h4 class="info-label" data-ar="الجهة المنظمة" data-ku="لایەنی رێکخەر">الجهة المنظمة</h4>
+                        <p class="info-value" data-ar="منظمة السلام والحرية" data-ku="رێکخراوی ئاشتی و ئازادی">منظمة السلام والحرية</p>
+                    </div>
+                    <div class="info-card">
+                        <h4 class="info-label" data-ar="مدير المشروع" data-ku="بەڕێوەبەری پرۆژە">مدير المشروع</h4>
+                        <p class="info-value">سفانا زانا</p>
+                    </div>
+                    <div class="info-card full-width">
+                        <h4 class="info-label" data-ar="الهدف الرئيسي" data-ku="ئامانجی سەرەکی">الهدف الرئيسي</h4>
+                        <p class="info-value" data-ar="بناء جسور التواصل والشراكة بين الشباب والمؤسسات الحكومية والمدنية لتطوير قدرات الشباب ومشاركتهم في الشؤون العامة" data-ku="دروستکردنی پردی پەیوەندی و هاوبەشی نێوان لاوان و دامەزراوە حکومی و مەدەنیەکان بۆ پەرەپێدانی توانای لاوان و بەشداریکردنیان لە کاروباری گشتی">بناء جسور التواصل والشراكة بين الشباب والمؤسسات الحكومية والمدنية لتطوير قدرات الشباب ومشاركتهم في الشؤون العامة</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section 3: VIP Speakers -->
+            <section class="section" id="section-vip">
+                <h2 class="section-title" data-ar="القسم الثالث: الضيوف الرئيسيون" data-ku="بەشی سێیەم: میوانە سەرەکیەکان">القسم الثالث: الضيوف الرئيسيون</h2>
+                
+                <!-- Government Representatives -->
+                <div class="vip-category">
+                    <h3 class="category-title" data-ar="ممثلو المؤسسات الحكومية" data-ku="نوێنەرانی دامەزراوە حکومیەکان">ممثلو المؤسسات الحكومية</h3>
+                    
+                    <div class="vip-cards">
+                        <!-- VIP 1 -->
+                        <div class="vip-card">
+                            <div class="vip-header">
+                                <h4 class="vip-name" data-ar="السيدة زەکیە" data-ku="خاتوو زەکیە">السيدة زەکیە</h4>
+                                <span class="vip-badge" data-ar="نائب وزير" data-ku="جێگری وەزیر">نائب وزير</span>
+                            </div>
+                            <div class="vip-body">
+                                <div class="vip-info">
+                                    <span class="info-label" data-ar="المحافظة:" data-ku="پارێزگا:">المحافظة:</span>
+                                    <span class="info-value" data-ar="أربيل" data-ku="هەولێر">أربيل</span>
+                                </div>
+                                <div class="vip-info">
+                                    <span class="info-label" data-ar="المنصب:" data-ku="پلە:">المنصب:</span>
+                                    <span class="info-value">جێگیری وەزیر لە هەرێمی کوردستان</span>
+                                </div>
+                                <div class="vip-info">
+                                    <span class="info-label" data-ar="الدور:" data-ku="ڕۆڵ:">الدور:</span>
+                                    <span class="info-value" data-ar="رئاسة جلسة التوصيات النهائية" data-ku="سەرۆکایەتی کۆبوونەوەی رێکاری کۆتایی">رئاسة جلسة التوصيات النهائية</span>
+                                </div>
+                                <div class="vip-info highlight">
+                                    <span class="info-label" data-ar="الأهمية:" data-ku="گرنگی:">الأهمية:</span>
+                                    <span class="info-value" data-ar="أعلى منصب حكومي في الحضور" data-ku="بەرزترین پلەی حکومی لە ئامادەبووان">أعلى منصب حكومي في الحضور</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- VIP 2 -->
+                        <div class="vip-card">
+                            <div class="vip-header">
+                                <h4 class="vip-name" data-ar="السيد جمال حسين رحيم رحيم" data-ku="بەڕێز جەمال حوسێن رەحیم رەحیم">السيد جمال حسين رحيم رحيم</h4>
+                                <span class="vip-badge" data-ar="مدير عام" data-ku="بەڕێوەبەری گشتی">مدير عام</span>
+                            </div>
+                            <div class="vip-body">
+                                <div class="vip-info">
+                                    <span class="info-label" data-ar="المحافظة:" data-ku="پارێزگا:">المحافظة:</span>
+                                    <span class="info-value" data-ar="أربيل" data-ku="هەولێر">أربيل</span>
+                                </div>
+                                <div class="vip-info">
+                                    <span class="info-label" data-ar="المنصب:" data-ku="پلە:">المنصب:</span>
+                                    <span class="info-value">بەڕێوەبەری گشتی لە وزارەتی ڕۆشنبیری و لاوان</span>
+                                </div>
+                                <div class="vip-info">
+                                    <span class="info-value small" data-ar="(المدير العام في وزارة الثقافة والشباب - إقليم كردستان)" data-ku="(بەڕێوەبەری گشتی لە وەزارەتی کەلتوور و لاوان - هەرێمی کوردستان)">(المدير العام في وزارة الثقافة والشباب - إقليم كردستان)</span>
+                                </div>
+                                <div class="vip-info">
+                                    <span class="info-label" data-ar="الدور:" data-ku="ڕۆڵ:">الدور:</span>
+                                    <span class="info-value" data-ar="دور المؤسسات الحكومية في تطوير قدرات الشباب" data-ku="ڕۆڵی دامەزراوە حکومیەکان لە پەرەپێدانی توانای لاوان">دور المؤسسات الحكومية في تطوير قدرات الشباب</span>
+                                </div>
+                                <div class="vip-info highlight">
+                                    <span class="info-label" data-ar="الأهمية:" data-ku="گرنگی:">الأهمية:</span>
+                                    <span class="info-value" data-ar="ممثل رئيسي لوزارة الشباب في الإقليم" data-ku="نوێنەری سەرەکی وەزارەتی لاوان لە هەرێم">ممثل رئيسي لوزارة الشباب في الإقليم</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- VIP 3 -->
+                        <div class="vip-card">
+                            <div class="vip-header">
+                                <h4 class="vip-name" data-ar="السيدة خانزاد احمد عبد احمد" data-ku="خاتوو خانزاد ئەحمەد عەبد ئەحمەد">السيدة خانزاد احمد عبد احمد</h4>
+                                <span class="vip-badge" data-ar="مجلس المرأة" data-ku="ئەنجومەنی ژنان">مجلس المرأة</span>
+                            </div>
+                            <div class="vip-body">
+                                <div class="vip-info">
+                                    <span class="info-label" data-ar="المحافظة:" data-ku="پارێزگا:">المحافظة:</span>
+                                    <span class="info-value" data-ar="أربيل" data-ku="هەولێر">أربيل</span>
+                                </div>
+                                <div class="vip-info">
+                                    <span class="info-label" data-ar="المنصب:" data-ku="پلە:">المنصب:</span>
+                                    <span class="info-value">ئەنجومەنی کاروباری خانمان</span>
+                                </div>
+                                <div class="vip-info">
+                                    <span class="info-value small" data-ar="(المجلس الأعلى لشؤون المرأة - إقليم كردستان)" data-ku="(ئەنجومەنی بەرزی کاروباری ژنان - هەرێمی کوردستان)">(المجلس الأعلى لشؤون المرأة - إقليم كردستان)</span>
+                                </div>
+                                <div class="vip-info">
+                                    <span class="info-label" data-ar="الدور:" data-ku="ڕۆڵ:">الدور:</span>
+                                    <span class="info-value" data-ar="دور منظمات النساء والتحديات أمام الفتيات" data-ku="ڕۆڵی رێکخراوەکانی ژنان و تەحەداکان بەرامبەر کچان">دور منظمات النساء والتحديات أمام الفتيات</span>
+                                </div>
+                                <div class="vip-info highlight">
+                                    <span class="info-label" data-ar="الأهمية:" data-ku="گرنگی:">الأهمية:</span>
+                                    <span class="info-value" data-ar="تمثيل قضايا المرأة والفتيات في الإقليم" data-ku="نوێنەرایەتی کێشەکانی ژنان و کچان لە هەرێم">تمثيل قضايا المرأة والفتيات في الإقليم</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- VIP 4 -->
+                        <div class="vip-card">
+                            <div class="vip-header">
+                                <h4 class="vip-name" data-ar="السيد حسن السعدی" data-ku="بەڕێز حەسەن سەعدی">السيد حسن السعدی</h4>
+                                <span class="vip-badge" data-ar="مكتب رئيس الوزراء" data-ku="نووسینگەی سەرۆک وەزیران">مكتب رئيس الوزراء</span>
+                            </div>
+                            <div class="vip-body">
+                                <div class="vip-info">
+                                    <span class="info-label" data-ar="المحافظة:" data-ku="پارێزگا:">المحافظة:</span>
+                                    <span class="info-value" data-ar="بغداد" data-ku="بەغدا">بغداد</span>
+                                </div>
+                                <div class="vip-info">
+                                    <span class="info-label" data-ar="المنصب:" data-ku="پلە:">المنصب:</span>
+                                    <span class="info-value" data-ar="ممثل عن مكتب رئيس الوزراء العراقي" data-ku="نوێنەری نووسینگەی سەرۆک وەزیرانی عێراق">ممثل عن مكتب رئيس الوزراء العراقي</span>
+                                </div>
+                                <div class="vip-info">
+                                    <span class="info-label" data-ar="الدور:" data-ku="ڕۆڵ:">الدور:</span>
+                                    <span class="info-value" data-ar="دور الحكومة والمنظمات والفرق التطوعية في المشاركة الفاعلة للمرأة" data-ku="ڕۆڵی حکومەت و رێکخراوەکان و تیمە خۆبەخشەکان لە بەشداری کاریگەری ژنان">دور الحكومة والمنظمات والفرق التطوعية في المشاركة الفاعلة للمرأة</span>
+                                </div>
+                                <div class="vip-info highlight">
+                                    <span class="info-label" data-ar="الأهمية:" data-ku="گرنگی:">الأهمية:</span>
+                                    <span class="info-value" data-ar="تمثيل مكتب رئيس الوزراء العراقي" data-ku="نوێنەرایەتی نووسینگەی سەرۆک وەزیرانی عێراق">تمثيل مكتب رئيس الوزراء العراقي</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- VIP 5 -->
+                        <div class="vip-card">
+                            <div class="vip-header">
+                                <h4 class="vip-name" data-ar="السيد ئەردەلان محی الدین محمد" data-ku="بەڕێز ئەردەلان موحی ئەدین موحەمەد">السيد ئەردەلان محی الدین محمد</h4>
+                                <span class="vip-badge" data-ar="وزارة العمل" data-ku="وەزارەتی کار">وزارة العمل</span>
+                            </div>
+                            <div class="vip-body">
+                                <div class="vip-info">
+                                    <span class="info-label" data-ar="المحافظة:" data-ku="پارێزگا:">المحافظة:</span>
+                                    <span class="info-value" data-ar="أربيل" data-ku="هەولێر">أربيل</span>
+                                </div>
+                                <div class="vip-info">
+                                    <span class="info-label" data-ar="المنصب:" data-ku="پلە:">المنصب:</span>
+                                    <span class="info-value">وەزارەتی کاری کوردستان</span>
+                                </div>
+                                <div class="vip-info">
+                                    <span class="info-value small" data-ar="(وزارة العمل في كردستان)" data-ku="(وەزارەتی کار لە کوردستان)">(وزارة العمل في كردستان)</span>
+                                </div>
+                                <div class="vip-info">
+                                    <span class="info-label" data-ar="الدور:" data-ku="ڕۆڵ:">الدور:</span>
+                                    <span class="info-value" data-ar="الشباب والتعليم وسوق العمل" data-ku="لاوان و پەروەردە و بازاڕی کار">الشباب والتعليم وسوق العمل</span>
+                                </div>
+                                <div class="vip-info highlight">
+                                    <span class="info-label" data-ar="الأهمية:" data-ku="گرنگی:">الأهمية:</span>
+                                    <span class="info-value" data-ar="ربط الشباب بفرص العمل" data-ku="بەستنەوەی لاوان بە دەرفەتەکانی کار">ربط الشباب بفرص العمل</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- VIP 6 -->
+                        <div class="vip-card">
+                            <div class="vip-header">
+                                <h4 class="vip-name" data-ar="السيدة کۆجەر" data-ku="خاتوو کۆژەر">السيدة کۆجەر</h4>
+                                <span class="vip-badge" data-ar="التعليم العالي" data-ku="خوێندنی بالا">التعليم العالي</span>
+                            </div>
+                            <div class="vip-body">
+                                <div class="vip-info">
+                                    <span class="info-label" data-ar="المحافظة:" data-ku="پارێزگا:">المحافظة:</span>
+                                    <span class="info-value" data-ar="أربيل" data-ku="هەولێر">أربيل</span>
+                                </div>
+                                <div class="vip-info">
+                                    <span class="info-label" data-ar="المنصب:" data-ku="پلە:">المنصب:</span>
+                                    <span class="info-value">وەزارەتی خوێندنی بالا</span>
+                                </div>
+                                <div class="vip-info">
+                                    <span class="info-value small" data-ar="(وزارة التعليم العالي في كردستان)" data-ku="(وەزارەتی خوێندنی بالا لە کوردستان)">(وزارة التعليم العالي في كردستان)</span>
+                                </div>
+                                <div class="vip-info">
+                                    <span class="info-label" data-ar="الدور:" data-ku="ڕۆڵ:">الدور:</span>
+                                    <span class="info-value" data-ar="الشباب والتعليم وسوق العمل" data-ku="لاوان و پەروەردە و بازاڕی کار">الشباب والتعليم وسوق العمل</span>
+                                </div>
+                                <div class="vip-info highlight">
+                                    <span class="info-label" data-ar="الأهمية:" data-ku="گرنگی:">الأهمية:</span>
+                                    <span class="info-value" data-ar="ربط التعليم الأكاديمي بالواقع العملي" data-ku="بەستنەوەی پەروەردەی ئەکادیمی بە واقیعی کارکردن">ربط التعليم الأكاديمي بالواقع العملي</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Civil Society Representatives -->
+                <div class="vip-category">
+                    <h3 class="category-title" data-ar="ممثلو المؤسسات الحقوقية والمدنية" data-ku="نوێنەرانی دامەزراوە مافی و مەدەنیەکان">ممثلو المؤسسات الحقوقية والمدنية</h3>
+                    
+                    <div class="vip-cards">
+                        <!-- VIP 7 -->
+                        <div class="vip-card">
+                            <div class="vip-header">
+                                <h4 class="vip-name" data-ar="السيدة مونا یاقۆ" data-ku="خاتوو مۆنا یاقۆ">السيدة مونا یاقۆ</h4>
+                                <span class="vip-badge" data-ar="حقوق الإنسان" data-ku="مافەکانی مرۆڤ">حقوق الإنسان</span>
+                            </div>
+                            <div class="vip-body">
+                                <div class="vip-info">
+                                    <span class="info-label" data-ar="المحافظة:" data-ku="پارێزگا:">المحافظة:</span>
+                                    <span class="info-value" data-ar="أربيل" data-ku="هەولێر">أربيل</span>
+                                </div>
+                                <div class="vip-info">
+                                    <span class="info-label" data-ar="المنصب:" data-ku="پلە:">المنصب:</span>
+                                    <span class="info-value">دەستەی سەربەخۆی مافەکانی مرۆڤ</span>
+                                </div>
+                                <div class="vip-info">
+                                    <span class="info-value small" data-ar="(اللجنة المستقلة لحقوق الإنسان)" data-ku="(لیژنەی سەربەخۆی مافەکانی مرۆڤ)">(اللجنة المستقلة لحقوق الإنسان)</span>
+                                </div>
+                                <div class="vip-info">
+                                    <span class="info-label" data-ar="الدور:" data-ku="ڕۆڵ:">الدور:</span>
+                                    <span class="info-value" data-ar="حقوق الإنسان وحماية حقوق الشباب" data-ku="مافەکانی مرۆڤ و پاراستنی مافەکانی لاوان">حقوق الإنسان وحماية حقوق الشباب</span>
+                                </div>
+                                <div class="vip-info highlight">
+                                    <span class="info-label" data-ar="الأهمية:" data-ku="گرنگی:">الأهمية:</span>
+                                    <span class="info-value" data-ar="الرقابة على حماية حقوق الشباب" data-ku="چاودێری لەسەر پاراستنی مافەکانی لاوان">الرقابة على حماية حقوق الشباب</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Labor Union Representatives -->
+                <div class="vip-category">
+                    <h3 class="category-title" data-ar="ممثلو النقابات العمالية" data-ku="نوێنەرانی سەندیکا کرێکارییەکان">ممثلو النقابات العمالية</h3>
+                    
+                    <div class="vip-cards">
+                        <!-- VIP 8 -->
+                        <div class="vip-card">
+                            <div class="vip-header">
+                                <h4 class="vip-name" data-ar="السيد یوسف" data-ku="بەڕێز یوسف">السيد یوسف</h4>
+                                <span class="vip-badge" data-ar="نقابة العمال" data-ku="سەندیکای کرێکاران">نقابة العمال</span>
+                            </div>
+                            <div class="vip-body">
+                                <div class="vip-info">
+                                    <span class="info-label" data-ar="المحافظة:" data-ku="پارێزگا:">المحافظة:</span>
+                                    <span class="info-value" data-ar="أربيل" data-ku="هەولێر">أربيل</span>
+                                </div>
+                                <div class="vip-info">
+                                    <span class="info-label" data-ar="المنصب:" data-ku="پلە:">المنصب:</span>
+                                    <span class="info-value">سەندیکای کرێکاران</span>
+                                </div>
+                                <div class="vip-info">
+                                    <span class="info-value small" data-ar="(نقابة العمال في كردستان)" data-ku="(سەندیکای کرێکاران لە کوردستان)">(نقابة العمال في كردستان)</span>
+                                </div>
+                                <div class="vip-info">
+                                    <span class="info-label" data-ar="الدور:" data-ku="ڕۆڵ:">الدور:</span>
+                                    <span class="info-value" data-ar="دور الشباب في المنظمات والنقابات" data-ku="ڕۆڵی لاوان لە رێکخراوەکان و سەندیکاکان">دور الشباب في المنظمات والنقابات</span>
+                                </div>
+                                <div class="vip-info highlight">
+                                    <span class="info-label" data-ar="الأهمية:" data-ku="گرنگی:">الأهمية:</span>
+                                    <span class="info-value" data-ar="تمثيل القطاع العمالي والنقابي" data-ku="نوێنەرایەتی بواری کرێکاری و سەندیکایی">تمثيل القطاع العمالي والنقابي</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Prominent Activists -->
+                <div class="vip-category">
+                    <h3 class="category-title" data-ar="الناشطون والقادة المدنيون البارزون" data-ku="چالاکوان و سەرکردە مەدەنیە بەناوبانگەکان">الناشطون والقادة المدنيون البارزون</h3>
+                    
+                    <div class="vip-cards">
+                        <!-- VIP 9 -->
+                        <div class="vip-card">
+                            <div class="vip-header">
+                                <h4 class="vip-name" data-ar="جاسم محمد روبتيان روراو" data-ku="جاسم موحەمەد روبتیان رۆراو">جاسم محمد روبتيان روراو</h4>
+                                <span class="vip-badge" data-ar="منتدى الشباب" data-ku="فۆرمی لاوان">منتدى الشباب</span>
+                            </div>
+                            <div class="vip-body">
+                                <div class="vip-info">
+                                    <span class="info-label" data-ar="المحافظة:" data-ku="پارێزگا:">المحافظة:</span>
+                                    <span class="info-value" data-ar="كركوك - داقوق" data-ku="کەرکوک - داقووق">كركوك - داقوق</span>
+                                </div>
+                                <div class="vip-info">
+                                    <span class="info-label" data-ar="المنصب:" data-ku="پلە:">المنصب:</span>
+                                    <span class="info-value" data-ar="مدير منتدى الشباب والرياضة" data-ku="بەڕێوەبەری فۆرمی لاوان و وەرزش">مدير منتدى الشباب والرياضة</span>
+                                </div>
+                                <div class="vip-info">
+                                    <span class="info-label" data-ar="الدور:" data-ku="ڕۆڵ:">الدور:</span>
+                                    <span class="info-value" data-ar="تمثيل محافظة كركوك والمناطق المتنوعة" data-ku="نوێنەرایەتی پارێزگای کەرکوک و ناوچە جۆراوجۆرەکان">تمثيل محافظة كركوك والمناطق المتنوعة</span>
+                                </div>
+                                <div class="vip-info highlight">
+                                    <span class="info-label" data-ar="الأهمية:" data-ku="گرنگی:">الأهمية:</span>
+                                    <span class="info-value" data-ar="تمثيل المناطق المتنوعة" data-ku="نوێنەرایەتی ناوچە جۆراوجۆرەکان">تمثيل المناطق المتنوعة</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section 4: Program Schedule -->
+            <section class="section" id="section-program">
+                <h2 class="section-title" data-ar="القسم الرابع: البرنامج التفصيلي" data-ku="بەشی چوارەم: بەرنامەی ورد">القسم الرابع: البرنامج التفصيلي</h2>
+                
+                <div class="timeline">
+                    <!-- Session 1 -->
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h3 class="session-title" data-ar="الجلسة الأولى: الافتتاح والترحيب" data-ku="کۆبوونەوەی یەکەم: کردنەوە و پێشوازی">الجلسة الأولى: الافتتاح والترحيب</h3>
+                            <div class="session-details">
+                                <div class="session-row">
+                                    <span class="detail-label" data-ar="الموضوع:" data-ku="بابەت:">الموضوع:</span>
+                                    <span class="detail-value" data-ar="التسجيل، الترحيب، التعريف بهدف النشاط" data-ku="تۆمارکردن، پێشوازی، ناساندنی ئامانجی چالاکی">التسجيل، الترحيب، التعريف بهدف النشاط</span>
+                                </div>
+                                <div class="session-row">
+                                    <span class="detail-label" data-ar="المتحدث:" data-ku="وتاربێژ:">المتحدث:</span>
+                                    <span class="detail-value">سفانا زانا</span>
+                                </div>
+                                <div class="session-row">
+                                    <span class="detail-label" data-ar="الجهة:" data-ku="لایەن:">الجهة:</span>
+                                    <span class="detail-value" data-ar="منظمة السلام والحرية" data-ku="رێکخراوی ئاشتی و ئازادی">منظمة السلام والحرية</span>
+                                </div>
+                                <div class="session-row">
+                                    <span class="detail-label" data-ar="الوصف:" data-ku="باسکردن:">الوصف:</span>
+                                    <span class="detail-value" data-ar="كلمة افتتاحية توضح أهداف النشاط وأهمية الحوار بين الشباب والجهات المعنية" data-ku="وتەیەکی کردنەوە ڕوونی دەکاتەوە ئامانجەکانی چالاکی و گرنگی گفتوگۆ نێوان لاوان و لایەنە پەیوەندیدارەکان">كلمة افتتاحية توضح أهداف النشاط وأهمية الحوار بين الشباب والجهات المعنية</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Session 2 -->
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h3 class="session-title" data-ar="الجلسة الثانية: إنشاء شبكة من الشباب - السلام والأمن" data-ku="کۆبوونەوەی دووەم: دروستکردنی تۆڕێک لە لاوان - ئاشتی و ئاسایش">الجلسة الثانية: إنشاء شبكة من الشباب - السلام والأمن</h3>
+                            <div class="session-details">
+                                <div class="session-row">
+                                    <span class="detail-label" data-ar="الموضوع:" data-ku="بابەت:">الموضوع:</span>
+                                    <span class="detail-value" data-ar="قرار مجلس الأمن 2250 ودور الشباب في بناء السلام" data-ku="بڕیاری ئەنجومەنی ئاسایش 2250 و ڕۆڵی لاوان لە بیناکردنی ئاشتی">قرار مجلس الأمن 2250 ودور الشباب في بناء السلام</span>
+                                </div>
+                                <div class="session-row">
+                                    <span class="detail-label" data-ar="المتحدث الرئيسي:" data-ku="وتاربێژی سەرەکی:">المتحدث الرئيسي:</span>
+                                    <span class="detail-value" data-ar="عبدالرحمن (خبير قرار 2250)" data-ku="عەبدولڕەحمان (شارەزای بڕیاری 2250)">عبدالرحمن (خبير قرار 2250)</span>
+                                </div>
+                                <div class="session-row">
+                                    <span class="detail-label" data-ar="نوع الجلسة:" data-ku="جۆری کۆبوونەوە:">نوع الجلسة:</span>
+                                    <span class="detail-value" data-ar="جلسة تعريفية وتثقيفية" data-ku="کۆبوونەوەی ناساندن و هۆشیاری">جلسة تعريفية وتثقيفية</span>
+                                </div>
+                                <div class="session-row">
+                                    <span class="detail-label" data-ar="الوصف:" data-ku="باسکردن:">الوصف:</span>
+                                    <span class="detail-value" data-ar="شرح قرار مجلس الأمن 2250 وأهمية بناء شبكات الشباب لتحقيق السلام والأمن" data-ku="ڕوونکردنەوەی بڕیاری ئەنجومەنی ئاسایش 2250 و گرنگی بیناکردنی تۆڕەکانی لاوان بۆ جێبەجێکردنی ئاشتی و ئاسایش">شرح قرار مجلس الأمن 2250 وأهمية بناء شبكات الشباب لتحقيق السلام والأمن</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Session 3 -->
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h3 class="session-title" data-ar="الجلسة الثالثة: دور المؤسسات الحكومية في تطوير قدرات وفرص الشباب" data-ku="کۆبوونەوەی سێیەم: ڕۆڵی دامەزراوە حکومیەکان لە پەرەپێدانی توانا و دەرفەتەکانی لاوان">الجلسة الثالثة: دور المؤسسات الحكومية في تطوير قدرات وفرص الشباب</h3>
+                            <div class="session-details">
+                                <div class="session-row">
+                                    <span class="detail-label" data-ar="الموضوع:" data-ku="بابەت:">الموضوع:</span>
+                                    <span class="detail-value" data-ar="البرامج والمبادرات الحكومية لدعم الشباب" data-ku="بەرنامە و دەستپێشخەرییە حکومیەکان بۆ پشتیوانی لاوان">البرامج والمبادرات الحكومية لدعم الشباب</span>
+                                </div>
+                                <div class="session-row">
+                                    <span class="detail-label" data-ar="المتحدثون الرئيسيون:" data-ku="وتاربێژە سەرەکیەکان:">المتحدثون الرئيسيون:</span>
+                                    <span class="detail-value" data-ar="جمال حسين رحيم رحيم - وزارة الثقافة والشباب (إقليم كردستان)" data-ku="جەمال حوسێن رەحیم رەحیم - وەزارەتی کەلتوور و لاوان (هەرێمی کوردستان)">جمال حسين رحيم رحيم - وزارة الثقافة والشباب (إقليم كردستان)</span>
+                                </div>
+                                <div class="session-row">
+                                    <span class="detail-label" data-ar="التفاعل:" data-ku="کارلێکی:">التفاعل:</span>
+                                    <span class="detail-value" data-ar="جلسة نقاش مفتوحة مع المشاركين" data-ku="کۆبوونەوەی گفتوگۆی کراوە لەگەڵ بەشداربووان">جلسة نقاش مفتوحة مع المشاركين</span>
+                                </div>
+                                <div class="session-row">
+                                    <span class="detail-label" data-ar="الوصف:" data-ku="باسکردن:">الوصف:</span>
+                                    <span class="detail-value" data-ar="استعراض السياسات والبرامج الحكومية وفرص التطوير المتاحة للشباب" data-ku="پێشکەشکردنی سیاسەت و بەرنامە حکومیەکان و دەرفەتەکانی پەرەپێدان بۆ لاوان">استعراض السياسات والبرامج الحكومية وفرص التطوير المتاحة للشباب</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Session 4 -->
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h3 class="session-title" data-ar="الجلسة الرابعة: دور الحكومة والمنظمات - الفرص والحواجز أمام الفتيات" data-ku="کۆبوونەوەی چوارەم: ڕۆڵی حکومەت و رێکخراوەکان - دەرفەت و کۆسپەکان بەردەم کچان">الجلسة الرابعة: دور الحكومة والمنظمات - الفرص والحواجز أمام الفتيات</h3>
+                            <div class="session-details">
+                                <div class="session-row">
+                                    <span class="detail-label" data-ar="الموضوع:" data-ku="بابەت:">الموضوع:</span>
+                                    <span class="detail-value" data-ar="تمكين النساء والتحديات التي تواجههن" data-ku="بەهێزکردنی ژنان و ئاستەنگەکان کە ڕووبەڕوویان دەبنەوە">تمكين النساء والتحديات التي تواجههن</span>
+                                </div>
+                                <div class="session-row">
+                                    <span class="detail-label" data-ar="المتحدثون الرئيسيون:" data-ku="وتاربێژە سەرەکیەکان:">المتحدثون الرئيسيون:</span>
+                                    <div class="detail-value">
+                                        <div data-ar="خانزاد احمد عبد احمد - المجلس الأعلى لشؤون المرأة (إقليم كردستان)" data-ku="خانزاد ئەحمەد عەبد ئەحمەد - ئەنجومەنی بەرزی کاروباری ژنان (هەرێمی کوردستان)">خانزاد احمد عبد احمد - المجلس الأعلى لشؤون المرأة (إقليم كردستان)</div>
+                                        <div data-ar="حسن مجید عبدالحسین سعدی - مكتب رئيس الوزراء العراقي" data-ku="حەسەن موجید عەبدولحوسێن سەعدی - نووسینگەی سەرۆک وەزیرانی عێراق">حسن مجید عبدالحسین سعدی - مكتب رئيس الوزراء العراقي</div>
+                                    </div>
+                                </div>
+                                <div class="session-row">
+                                    <span class="detail-label" data-ar="التفاعل:" data-ku="کارلێکی:">التفاعل:</span>
+                                    <span class="detail-value" data-ar="جلسة نقاش مع المشاركين" data-ku="کۆبوونەوەی گفتوگۆ لەگەڵ بەشداربووان">جلسة نقاش مع المشاركين</span>
+                                </div>
+                                <div class="session-row">
+                                    <span class="detail-label" data-ar="الوصف:" data-ku="باسکردن:">الوصف:</span>
+                                    <span class="detail-value" data-ar="مناقشة الفرص المتاحة والعوائق التي تحول دون مشاركة الفتيات الفعالة" data-ku="گفتوگۆ دەربارەی دەرفەتە بەردەستەکان و کۆسپەکان کە ڕێگری لە بەشداری کاریگەری کچان دەکەن">مناقشة الفرص المتاحة والعوائق التي تحول دون مشاركة الفتيات الفعالة</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Coffee Break -->
+                    <div class="timeline-item break">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h3 class="session-title" data-ar="استراحة قهوة" data-ku="پشوودانی قاوە">استراحة قهوة</h3>
+                            <div class="session-details">
+                                <p class="detail-value" data-ar="فرصة للتواصل والتعارف بين المشاركين" data-ku="دەرفەت بۆ پەیوەندی و ناسینەوە لە نێوان بەشداربووان">فرصة للتواصل والتعارف بين المشاركين</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Session 5 -->
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h3 class="session-title" data-ar="الجلسة الخامسة: المؤسسات في مجال حقوق الإنسان وحماية حقوق الشباب" data-ku="کۆبوونەوەی پێنجەم: دامەزراوەکان لە بواری مافەکانی مرۆڤ و پاراستنی مافەکانی لاوان">الجلسة الخامسة: المؤسسات في مجال حقوق الإنسان وحماية حقوق الشباب</h3>
+                            <div class="session-details">
+                                <div class="session-row">
+                                    <span class="detail-label" data-ar="الموضوع:" data-ku="بابەت:">الموضوع:</span>
+                                    <span class="detail-value" data-ar="الآليات القانونية لحماية حقوق الشباب" data-ku="میکانیزمە یاساییەکان بۆ پاراستنی مافەکانی لاوان">الآليات القانونية لحماية حقوق الشباب</span>
+                                </div>
+                                <div class="session-row">
+                                    <span class="detail-label" data-ar="المتحدثة الرئيسية:" data-ku="وتاربێژی سەرەکی:">المتحدثة الرئيسية:</span>
+                                    <span class="detail-value" data-ar="مونا یاقۆ - اللجنة المستقلة لحقوق الإنسان" data-ku="مۆنا یاقۆ - لیژنەی سەربەخۆی مافەکانی مرۆڤ">مونا یاقۆ - اللجنة المستقلة لحقوق الإنسان</span>
+                                </div>
+                                <div class="session-row">
+                                    <span class="detail-label" data-ar="التفاعل:" data-ku="کارلێکی:">التفاعل:</span>
+                                    <span class="detail-value" data-ar="جلسة نقاش مع المشاركين" data-ku="کۆبوونەوەی گفتوگۆ لەگەڵ بەشداربووان">جلسة نقاش مع المشاركين</span>
+                                </div>
+                                <div class="session-row">
+                                    <span class="detail-label" data-ar="الوصف:" data-ku="باسکردن:">الوصف:</span>
+                                    <span class="detail-value" data-ar="استعراض الضمانات القانونية وآليات حماية حقوق الشباب والانتصاف" data-ku="پێشکەشکردنی دڵنیاییە یاساییەکان و میکانیزمەکانی پاراستنی مافەکانی لاوان و مافپەرێزی">استعراض الضمانات القانونية وآليات حماية حقوق الشباب والانتصاف</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Session 6 -->
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h3 class="session-title" data-ar="الجلسة السادسة: الشباب والتعليم وسوق العمل" data-ku="کۆبوونەوەی شەشەم: لاوان و پەروەردە و بازاڕی کار">الجلسة السادسة: الشباب والتعليم وسوق العمل</h3>
+                            <div class="session-details">
+                                <div class="session-row">
+                                    <span class="detail-label" data-ar="الموضوع:" data-ku="بابەت:">الموضوع:</span>
+                                    <span class="detail-value" data-ar="ربط التعليم الأكاديمي بمتطلبات سوق العمل" data-ku="بەستنەوەی پەروەردەی ئەکادیمی بە پێداویستیەکانی بازاڕی کار">ربط التعليم الأكاديمي بمتطلبات سوق العمل</span>
+                                </div>
+                                <div class="session-row">
+                                    <span class="detail-label" data-ar="المتحدثون الرئيسيون:" data-ku="وتاربێژە سەرەکیەکان:">المتحدثون الرئيسيون:</span>
+                                    <div class="detail-value">
+                                        <div data-ar="کۆجەر - وزارة التعليم العالي" data-ku="کۆژەر - وەزارەتی خوێندنی بالا">کۆجەر - وزارة التعليم العالي</div>
+                                        <div data-ar="ئەردەلان محی الدین محمد - وزارة العمل في كردستان" data-ku="ئەردەلان موحی ئەدین موحەمەد - وەزارەتی کار لە کوردستان">ئەردەلان محی الدین محمد - وزارة العمل في كردستان</div>
+                                        <div data-ar="ممثلو وزارة العمل والشؤون الاجتماعية" data-ku="نوێنەرانی وەزارەتی کار و کاروباری کۆمەڵایەتی">ممثلو وزارة العمل والشؤون الاجتماعية</div>
+                                    </div>
+                                </div>
+                                <div class="session-row">
+                                    <span class="detail-label" data-ar="التفاعل:" data-ku="کارلێکی:">التفاعل:</span>
+                                    <span class="detail-value" data-ar="جلسة نقاش مع المشاركين" data-ku="کۆبوونەوەی گفتوگۆ لەگەڵ بەشداربووان">جلسة نقاش مع المشاركين</span>
+                                </div>
+                                <div class="session-row">
+                                    <span class="detail-label" data-ar="الوصف:" data-ku="باسکردن:">الوصف:</span>
+                                    <span class="detail-value" data-ar="مناقشة الفجوة بين التعليم والعمل وكيفية تجسيرها" data-ku="گفتوگۆ دەربارەی بۆشاییەکە لە نێوان پەروەردە و کار و چۆنیەتی پردکردنی">مناقشة الفجوة بين التعليم والعمل وكيفية تجسيرها</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Session 7 -->
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h3 class="session-title" data-ar="الجلسة السابعة: دور الشباب في المنظمات والنقابات" data-ku="کۆبوونەوەی حەوتەم: ڕۆڵی لاوان لە رێکخراوەکان و سەندیکاکان">الجلسة السابعة: دور الشباب في المنظمات والنقابات</h3>
+                            <div class="session-details">
+                                <div class="session-row">
+                                    <span class="detail-label" data-ar="الموضوع:" data-ku="بابەت:">الموضوع:</span>
+                                    <span class="detail-value" data-ar="أهمية المشاركة النقابية للشباب" data-ku="گرنگی بەشداری سەندیکایی بۆ لاوان">أهمية المشاركة النقابية للشباب</span>
+                                </div>
+                                <div class="session-row">
+                                    <span class="detail-label" data-ar="المتحدثون الرئيسيون:" data-ku="وتاربێژە سەرەکیەکان:">المتحدثون الرئيسيون:</span>
+                                    <div class="detail-value">
+                                        <div data-ar="یوسف - نقابة العمال" data-ku="یوسف - سەندیکای کرێکاران">یوسف - نقابة العمال</div>
+                                        <div data-ar="ممثلو النقابات العمالية الأخرى" data-ku="نوێنەرانی سەندیکا کرێکارییە تەرەکان">ممثلو النقابات العمالية الأخرى</div>
+                                    </div>
+                                </div>
+                                <div class="session-row">
+                                    <span class="detail-label" data-ar="التفاعل:" data-ku="کارلێکی:">التفاعل:</span>
+                                    <span class="detail-value" data-ar="جلسة نقاش مع المشاركين" data-ku="کۆبوونەوەی گفتوگۆ لەگەڵ بەشداربووان">جلسة نقاش مع المشاركين</span>
+                                </div>
+                                <div class="session-row">
+                                    <span class="detail-label" data-ar="الوصف:" data-ku="باسکردن:">الوصف:</span>
+                                    <span class="detail-value" data-ar="دور النقابات في حماية حقوق الشباب العاملين وتمكينهم" data-ku="ڕۆڵی سەندیکاکان لە پاراستنی مافەکانی لاوانی کارکەر و بەهێزکردنیان">دور النقابات في حماية حقوق الشباب العاملين وتمكينهم</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Session 8 -->
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h3 class="session-title" data-ar="الجلسة الثامنة: توصيات لتطوير قدرات ومشاركة الشباب" data-ku="کۆبوونەوەی هەشتەم: رێکارەکان بۆ پەرەپێدانی توانا و بەشداری لاوان">الجلسة الثامنة: توصيات لتطوير قدرات ومشاركة الشباب</h3>
+                            <div class="session-details">
+                                <div class="session-row">
+                                    <span class="detail-label" data-ar="الموضوع:" data-ku="بابەت:">الموضوع:</span>
+                                    <span class="detail-value" data-ar="صياغة التوصيات والمخرجات النهائية" data-ku="داڕشتنی رێکارەکان و دەرەنجامە کۆتاییەکان">صياغة التوصيات والمخرجات النهائية</span>
+                                </div>
+                                <div class="session-row">
+                                    <span class="detail-label" data-ar="رئاسة الجلسة:" data-ku="سەرۆکایەتی کۆبوونەوە:">رئاسة الجلسة:</span>
+                                    <span class="detail-value" data-ar="زەکیە - نائب وزير في إقليم كردستان" data-ku="زەکیە - جێگری وەزیر لە هەرێمی کوردستان">زەکیە - نائب وزير في إقليم كردستان</span>
+                                </div>
+                                <div class="session-row">
+                                    <span class="detail-label" data-ar="التفاعل:" data-ku="کارلێکی:">التفاعل:</span>
+                                    <span class="detail-value" data-ar="جلسة مفتوحة لجميع المشاركين" data-ku="کۆبوونەوەی کراوە بۆ هەموو بەشداربووان">جلسة مفتوحة لجميع المشاركين</span>
+                                </div>
+                                <div class="session-row">
+                                    <span class="detail-label" data-ar="الوصف:" data-ku="باسکردن:">الوصف:</span>
+                                    <span class="detail-value" data-ar="جمع وصياغة التوصيات النهائية للحوار وآليات المتابعة" data-ku="کۆکردنەوە و داڕشتنی رێکارە کۆتاییەکانی گفتوگۆ و میکانیزمەکانی بەدواداچوون">جمع وصياغة التوصيات النهائية للحوار وآليات المتابعة</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p data-ar="منظمة السلام والحرية - 2025 | جميع الحقوق محفوظة" data-ku="رێکخراوی ئاشتی و ئازادی - 2025 | هەموو مافێک پارێزراوە">منظمة السلام والحرية - 2025 | جميع الحقوق محفوظة</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
